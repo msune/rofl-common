@@ -279,7 +279,7 @@ csocket_plain::handle_wevent(int fd)
 void
 csocket_plain::handle_xevent(int fd)
 {
-	rofl::logging::error << "[rofl[csocket][plain] error occured on socket descriptor" << str() << std::endl;
+	rofl::logging::debug << "[rofl[csocket][plain] error occured on socket descriptor " << str() << std::endl;
 }
 
 
